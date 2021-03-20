@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>All Products</title>
+	<meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+	  <link rel="stylesheet" href="./css/style.css">
+	  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/gsap.min.js"></script>
+	  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+
+	  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"> -->
+	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<div class="container">
+		<div class="navbar">
+			<div class="logo">
+				<a href="index.html"><img src="images/logo.png" width="125px"></a>
+			</div>
+
+			<nav>
+				<ul id="menuItems">
+					<li>
+						<a href="index.html">Home</a>
+					</li>
+					<li>
+						<a href="products.html">Products</a>
+					</li>
+					<li>
+						<a href="href">About</a>
+					</li>
+					<li>
+						<a href="href">Contact</a>
+					</li>
+					<li>
+						<a href="account.html">Account</a>
+					</li>
+				</ul>
+			</nav>
+			<a href="cart.html"><img src="images/cart.png" width="30px" height="30px"></a>
+			<img src="images/menu.png" class="menu-icon" onclick = "menuToggle()">
+		</div>	
+	</div>
+
+	<div class="small-container">
+
+		<div class="row row-2">
+			<h2>All products</h2>
+			<select>
+				<option class="arrange active">Default shorting</option>
+				<option class="arrange">Short by price</option>
+				<option class="arrange">Short by popularity</option>
+				<option class="arrange">Short by rating</option>
+			</select>
+		</div>
+
+		<div class="row">
+			<div class="col-4">
+				<img src="images/product-1.jpg">
+				<h4>Red Printed T-Shirt</h4>
+				<div class="rating">
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star"></i>
+					<i class="far fa-star"></i>
+				</div>
+				<p>$50.00</p>
+			</div>
+			<div class="col-4">
+				<img src="images/product-2.jpg">
+				<h4>Black Shoes</h4>
+				<div class="rating">
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star-half-alt"></i>
+				</div>
+				<p>$59.00</p>
+			</div>
+			<div class="col-4">
+				<img src="images/product-3.jpg">
+				<h4>Caro Pant</h4>
+				<div class="rating">
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star"></i>
+					<i class="far fa-star"></i>
+				</div>
+				<p>$35.00</p>
+			</div>
+			<div class="col-4">
+				<img src="images/product-4.jpg">
+				<h4>Puma T-Shirt</h4>
+				<div class="rating">
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star-half-alt"></i>
+				</div>
+				<p>$65.00</p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-4">
+				<img src="images/product-5.jpg">
+				<h4>White-Grey Shoes</h4>
+				<div class="rating">
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star"></i>
+					<i class="far fa-star"></i>
+				</div>
+				<p>$49.00</p>
+			</div>
+			<div class="col-4">
+				<img src="images/product-6.jpg">
+				<h4>Puma T-Shirt Big Logo</h4>
+				<div class="rating">
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star-half-alt"></i>
+				</div>
+				<p>$75.00</p>
+			</div>
+			<div class="col-4">
+				<img src="images/product-7.jpg">
+				<h4>Socks</h4>
+				<div class="rating">
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star"></i>
+					<i class="far fa-star"></i>
+				</div>
+				<p>$20.00</p>
+			</div>
+			<div class="col-4">
+				<img src="images/product-8.jpg">
+				<h4>Gentlemen Watch</h4>
+				<div class="rating">
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star-half-alt"></i>
+				</div>
+				<p>$190.00</p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-4">
+				<img src="images/product-9.jpg">
+				<h4>Watch Pro</h4>
+				<div class="rating">
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star"></i>
+					<i class="far fa-star"></i>
+				</div>
+				<p>$150.00</p>
+			</div>
+			<div class="col-4">
+				<img src="images/product-10.jpg">
+				<h4>Pums Shoes</h4>
+				<div class="rating">
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star-half-alt"></i>
+				</div>
+				<p>$99.00</p>
+			</div>
+			<div class="col-4">
+				<img src="images/product-11.jpg">
+				<h4>Shoes Daily</h4>
+				<div class="rating">
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star"></i>
+					<i class="far fa-star"></i>
+				</div>
+				<p>$49.00</p>
+			</div>
+			<div class="col-4">
+				<img src="images/product-12.jpg">
+				<h4>Black Pant</h4>
+				<div class="rating">
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star-half-alt"></i>
+				</div>
+				<p>$45.00</p>
+			</div>
+		</div>
+
+		<div class="page-btn">
+			<span>1</span>
+			<span>2</span>
+			<span>3</span>
+			<span>4</span>
+			<span>5</span>
+			<span>&#8594;</span>
+		</div>
+	</div>
+
+	<!-- ------------footer-------------- -->
+
+	<div class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="footer-col-1">
+					<h3>Download our app</h3>
+					<p>Download App for Android and iOS mobile phone</p>
+					<div class="app-logo">
+						<img src="images/play-store.png" alt="">
+						<img src="images/app-store.png" alt="">
+					</div>
+				</div>
+				<div class="footer-col-2">
+					<img src="images/logo-white.png">
+					<p>Download App for Android and iOS mobile phone</p>
+				</div>
+				<div class="footer-col-3">
+					<h3>Useful Links</h3>
+					<ul>
+						<li>Coupons</li>
+						<li>Blogs</li>
+						<li>Return Policy</li>
+						<li>Join Affliate</li>
+					</ul>
+				</div>
+				<div class="footer-col-4">
+					<h3>Follow Us</h3>
+					<ul>
+						<li>Facebook</li>
+						<li>Twitters</li>
+						<li>Instagram</li>
+						<li>Youtube</li>
+					</ul>
+				</div>
+			</div>
+			<hr>
+			<p class="copyright">Copyright 2020 - Easy Tutorials</p>
+		</div>
+	</div>
+	<!-- <script src="./js/index.js"></script> -->
+	<script src="./js/products.js"></script>
+</body>
+</html>
